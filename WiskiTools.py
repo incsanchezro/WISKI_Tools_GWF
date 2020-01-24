@@ -34,7 +34,7 @@ def searchStation(MatchStr):
     return output
 
 def searchTimeseries(MatchStr,station_name):
-    ts_name_list = ['04.*', '02.*'] # what type of TS? Wildcard ok (refer to Wiski TS types)
+    ts_name_list = ['56.*','04.*', '02.*'] # what type of TS? Wildcard ok (refer to Wiski TS types)
 
     ts=[]
     parameters=[]
